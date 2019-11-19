@@ -1,0 +1,16 @@
+{
+  "id": "d961406b-867b-4644-ace3-29dc69830e1a",
+  "name": "Send template email to david.bosak@experis.com",
+  "form": "ec271e7d-3804-49c9-8b77-a88b07e37be6",
+  "active": true,
+  "workflowTypeId": "17c61629-d984-4e86-b43b-a8407b3efea9",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "david.bosak@experis.com",
+    "SenderEmail": "",
+    "Subject": "The Form '{form_name}' was submitted",
+    "RazorViewFilePath": "Forms/Emails/Example-Template.cshtml",
+    "Attachment": ""
+  },
+  "sortOrder": 1
+}

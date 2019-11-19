@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dynamicSyntaxLanguage1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="dynamicSyntaxLanguage1.DefinitionXml" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;
+&lt;SyntaxLanguages&gt;
+	&lt;!-- Python Language Definition --&gt;
+	&lt;SyntaxLanguage Key="Python" LanguageDefinitionVersion="4.0" Secure="False" xmlns="http://ActiproSoftware/SyntaxEditor/4.0/LanguageDefinition"&gt;
+		&lt;!-- String Properties --&gt;
+		&lt;Properties&gt;
+			&lt;Property Key="Creator" Value="Actipro Software LLC" /&gt;
+			&lt;Property Key="Copyright" Value="Copyright (c) 2001-2018 Actipro Software LLC.  All rights reserved." /&gt;
+		&lt;/Properties&gt;
+		&lt;!-- Triggers --&gt;
+		&lt;Triggers /&gt;
+		&lt;!-- Highlighting Styles --&gt;
+		&lt;Styles&gt;
+			&lt;Style Key="DefaultStyle" Name="Text" ForeColor="#000000" BorderColor="#000000" StrikeOutColor="#000000" UnderlineColor="#000000" /&gt;
+			&lt;Style Key="ReservedWordStyle" Name="Reserved Word" ForeColor="#0000FF" /&gt;
+			&lt;Style Key="SystemIdentifierStyle" Name="System Identifier" ForeColor="#800080" /&gt;
+			&lt;Style Key="OperatorStyle" Name="Operator" ForeColor="#000000" /&gt;
+			&lt;Style Key="NumberStyle" Name="Number" ForeColor="#000000" /&gt;
+			&lt;Style Key="StringDelimiterStyle" Name="String Delimiter" ForeColor="#800000" /&gt;
+			&lt;Style Key="StringDefaultStyle" Name="String Default" ForeColor="#800000" /&gt;
+			&lt;Style Key="CommentDelimiterStyle" Name="Comment Delimiter" ForeColor="#008000" /&gt;
+			&lt;Style Key="CommentDefaultStyle" Name="Comment Default" ForeColor="#008000" /&gt;
+		&lt;/Styles&gt;
+		&lt;!-- Macros --&gt;
+		&lt;Macros /&gt;
+		&lt;!-- States --&gt;
+		&lt;States&gt;
+			&lt;!-- DefaultState State --&gt;
+			&lt;State Key="DefaultState" TokenKey="DefaultToken" Style="DefaultStyle"&gt;
+				&lt;!-- Pattern Groups --&gt;
+				&lt;PatternGroups&gt;
+					&lt;RegexPatternGroup TokenKey="WhitespaceToken" PatternValue="{WhitespaceMacro}+" IsWhitespace="True" /&gt;
+					&lt;RegexPatternGroup TokenKey="LineTerminatorToken" PatternValue="{LineTerminatorMacro}" IsWhitespace="True" /&gt;
+					&lt;RegexPatternGroup TokenKey="BackSlashToken" PatternValue="\\" LookAhead="{WhitespaceMacro}* $" /&gt;
+					&lt;ExplicitPatternGroup Key="OpenParenthesisPatternGroup" TokenKey="OpenParenthesisToken" PatternValue="(" EndBracket="CloseParenthesisPatternGroup" /&gt;
+					&lt;ExplicitPatternGroup Key="CloseParenthesisPatternGroup" TokenKey="CloseParenthesisToken" PatternValue=")" StartBracket="OpenParenthesisPatternGroup" /&gt;
+					&lt;ExplicitPatternGroup Key="OpenCurlyBracePatternGroup" TokenKey="OpenCurlyBraceToken" PatternValue="{" EndBracket="CloseCurlyBracePatternGroup" /&gt;
+					&lt;ExplicitPatternGroup Key="CloseCurlyBracePatternGroup" TokenKey="CloseCurlyBraceToken" PatternValue="}" StartBracket="OpenCurlyBracePatternGroup" /&gt;
+					&lt;ExplicitPatternGroup Key="OpenSquareBracePatternGroup" TokenKey="OpenSquareBraceToken" PatternValue="[" EndBracket="CloseSquareBracePatternGroup" /&gt;
+					&lt;ExplicitPatternGroup Key="CloseSquareBracePatternGroup" TokenKey="CloseSquareBraceToken" PatternValue="]" StartBracket="OpenSquareBracePatternGroup" /&gt;
+					&lt;ExplicitPatternGroup TokenKey="PunctuationToken"&gt;
+						&lt;ExplicitPatterns&gt;
+							. , : ; ` 
+						&lt;/ExplicitPatterns&gt;
+					&lt;/ExplicitPatternGroup&gt;
+					&lt;ExplicitPatternGroup TokenKey="ReservedWordToken" Style="ReservedWordStyle" LookAhead="{NonWordMacro}|\z" CaseSensitivity="Sensitive"&gt;
+						&lt;ExplicitPatterns&gt;
+							and assert break class continue def del elif else except 
+							exec finally for from global if import in is lambda 
+							not or pass print raise return try while yield 
+						&lt;/ExplicitPatterns&gt;
+					&lt;/ExplicitPatternGroup&gt;
+					&lt;RegexPatternGroup TokenKey="SystemIdentifierToken" Style="SystemIdentifierStyle" PatternValue="__ ({WordMacro})+" /&gt;
+					&lt;RegexPatternGroup TokenKey="IdentifierToken" PatternValue="(_ | {AlphaMacro})({WordMacro})*" /&gt;
+					&lt;ExplicitPatternGroup TokenKey="OperatorToken" Style="OperatorStyle"&gt;
+						&lt;ExplicitPatterns&gt;
+							== != = += -= *= //= /= %= + 
+							- ** * // / % &amp;amp;= |= ^= &amp;amp; 
+							| ^ ~ &amp;lt;&amp;lt;= &amp;gt;&amp;gt;= **= &amp;lt;&amp;lt; &amp;gt;&amp;gt; &amp;lt;&amp;gt; &amp;lt;= 
+							&amp;lt; &amp;gt;= &amp;gt; 
+						&lt;/ExplicitPatterns&gt;
+					&lt;/ExplicitPatternGroup&gt;
+					&lt;RegexPatternGroup TokenKey="RealNumberToken" Style="NumberStyle" LookAhead="{NonWordMacro}|\z"&gt;
+						&lt;RegexPattern Value="{DigitMacro}* \. {DigitMacro}+ ([Ee] [\+\-]? {DigitMacro}+)? [Jj]?" /&gt;
+						&lt;RegexPattern Value="{DigitMacro}+ [Ee] [\+\-]? {DigitMacro}+ [Jj]?" /&gt;
+					&lt;/RegexPatternGroup&gt;
+					&lt;RegexPatternGroup TokenKey="IntegerNumberToken" Style="NumberStyle" PatternValue="[1-9]+ {DigitMacro}* [Ll]? [Jj]?" LookAhead="{NonWordMacro}|\z" /&gt;
+					&lt;RegexPatternGroup TokenKey="OctalNumberToken" Style="NumberStyle" PatternValue="0 [0-7]+ [Ll]? [Jj]?" LookAhead="{NonWordMacro}|\z" /&gt;
+					&lt;RegexPatternGroup TokenKey="HexIntegerNumberToken" Style="NumberStyle" PatternValue="0 [xX] {HexDigitMacro}+ [Ll]? [Jj]?" LookAhead="{NonWordMacro}|\z" /&gt;
+				&lt;/PatternGroups&gt;
+				&lt;!-- Child States --&gt;
+				&lt;ChildStates&gt;
+					&lt;ChildState Key="MultiLineStringState" /&gt;
+					&lt;ChildState Key="StringState" /&gt;
+					&lt;ChildState Key="CommentState" /&gt;
+				&lt;/ChildStates&gt;
+			&lt;/State&gt;
+			&lt;!-- MultiLineStringState State --&gt;
+			&lt;State Key="MultiLineStringState" TokenKey="MultiLineStringDefaultToken" Style="StringDefaultStyle"&gt;
+				&lt;!-- Scopes --&gt;
+				&lt;Scopes&gt;
+					&lt;Scope&gt;
+						&lt;ExplicitPatternGroup Type="StartScope" TokenKey="MultiLineStringStartToken" Style="StringDelimiterStyle" PatternValue="'''" /&gt;
+						&lt;ExplicitPatternGroup Type="EndScope" TokenKey="MultiLineStringEndToken" Style="StringDelimiterStyle" PatternValue="'''" /&gt;
+					&lt;/Scope&gt;
+					&lt;Scope&gt;
+						&lt;ExplicitPatternGroup Type="StartScope" TokenKey="MultiLineStringStartToken" Style="StringDelimiterStyle" PatternValue="&amp;quot;&amp;quot;&amp;quot;" /&gt;
+						&lt;ExplicitPatternGroup Type="EndScope" TokenKey="MultiLineStringEndToken" Style="StringDelimiterStyle" PatternValue="&amp;quot;&amp;quot;&amp;quot;" /&gt;
+					&lt;/Scope&gt;
+				&lt;/Scopes&gt;
+				&lt;!-- Pattern Groups --&gt;
+				&lt;PatternGroups&gt;
+					&lt;RegexPatternGroup TokenKey="MultiLineStringEscapedCharacterToken" PatternValue="\\x {HexDigitMacro}{1,4}" /&gt;
+					&lt;RegexPatternGroup TokenKey="MultiLineStringEscapedCharacterToken" PatternValue="\\u {HexDigitMacro}{4,4}" /&gt;
+					&lt;RegexPatternGroup TokenKey="MultiLineStringEscapedCharacterToken" PatternValue="\\U {HexDigitMacro}{8,8}" /&gt;
+					&lt;RegexPatternGroup TokenKey="MultiLineStringEscapedCharacterToken" PatternValue="\\ {DigitMacro}{3}" /&gt;
+					&lt;RegexPatternGroup TokenKey="MultiLineStringEscapedCharacterToken" PatternValue="\\." /&gt;
+					&lt;RegexPatternGroup TokenKey="MultiLineStringDefaultToken" PatternValue="[^\\\&amp;quot;']+" /&gt;
+				&lt;/PatternGroups&gt;
+			&lt;/State&gt;
+			&lt;!-- StringState State --&gt;
+			&lt;State Key="StringState" TokenKey="StringDefaultToken" Style="StringDefaultStyle"&gt;
+				&lt;!-- Scopes --&gt;
+				&lt;Scopes&gt;
+					&lt;Scope&gt;
+						&lt;ExplicitPatternGroup Type="StartScope" TokenKey="StringStartToken" Style="StringDelimiterStyle" PatternValue="'" /&gt;
+						&lt;RegexPatternGroup Type="EndScope" TokenKey="StringEndToken" Style="StringDelimiterStyle" PatternValue="['\n]" /&gt;
+					&lt;/Scope&gt;
+					&lt;Scope&gt;
+						&lt;ExplicitPatternGroup Type="StartScope" TokenKey="StringStartToken" Style="StringDelimiterStyle" PatternValue="&amp;quot;" /&gt;
+						&lt;RegexPatternGroup Type="EndScope" TokenKey="StringEndToken" Style="StringDelimiterStyle" PatternValue="[&amp;quot;\n]" /&gt;
+					&lt;/Scope&gt;
+				&lt;/Scopes&gt;
+				&lt;!-- Pattern Groups --&gt;
+				&lt;PatternGroups&gt;
+					&lt;RegexPatternGroup TokenKey="StringEscapedCharacterToken" PatternValue="\\x {HexDigitMacro}{1,4}" /&gt;
+					&lt;RegexPatternGroup TokenKey="StringEscapedCharacterToken" PatternValue="\\u {HexDigitMacro}{4,4}" /&gt;
+					&lt;RegexPatternGroup TokenKey="StringEscapedCharacterToken" PatternValue="\\U {HexDigitMacro}{8,8}" /&gt;
+					&lt;RegexPatternGroup TokenKey="StringEscapedCharacterToken" PatternValue="\\ {DigitMacro}{3}" /&gt;
+					&lt;RegexPatternGroup TokenKey="StringEscapedCharacterToken" PatternValue="\\." /&gt;
+					&lt;RegexPatternGroup TokenKey="StringEscapedCharacterToken" PatternValue="\\\n" /&gt;
+					&lt;RegexPatternGroup TokenKey="StringDefaultToken" PatternValue="[^\\\&amp;quot;'\n]+" /&gt;
+				&lt;/PatternGroups&gt;
+			&lt;/State&gt;
+			&lt;!-- CommentState State --&gt;
+			&lt;State Key="CommentState" TokenKey="CommentDefaultToken" Style="CommentDefaultStyle"&gt;
+				&lt;!-- Scopes --&gt;
+				&lt;Scopes&gt;
+					&lt;Scope&gt;
+						&lt;ExplicitPatternGroup Type="StartScope" TokenKey="CommentStartToken" Style="CommentDelimiterStyle" PatternValue="#" /&gt;
+						&lt;RegexPatternGroup Type="EndScope" TokenKey="CommentEndToken" Style="CommentDelimiterStyle" PatternValue="{LineTerminatorMacro}" IsWhitespace="True" /&gt;
+					&lt;/Scope&gt;
+				&lt;/Scopes&gt;
+				&lt;!-- Pattern Groups --&gt;
+				&lt;PatternGroups&gt;
+					&lt;RegexPatternGroup TokenKey="CommentDefaultToken" PatternValue="{NonLineTerminatorMacro}+" /&gt;
+				&lt;/PatternGroups&gt;
+			&lt;/State&gt;
+		&lt;/States&gt;
+		&lt;!-- Example Text --&gt;
+		&lt;ExampleText&gt;&lt;![CDATA[#
+# PythonSample.py
+#
+# This file uses some common Python constructs.
+#
+
+import os
+from sys import path
+
+mystring = "Here's a string that spans \
+					two lines."
+		
+
+class MyClass:
+	def __init__(self, value):
+		self.value = value
+		
+	def test(self):
+		try:
+			raise KeyboardInterrupt
+		finally:
+			print 'Goodbye, world!'
+
+
+def reverse(data):
+	'''
+	A simple iterator test function.
+	'''
+	for index in range(len(data)-1, -1, -1):
+		yield data[index]
+
+
+def fib(n):    # write Fibonacci series up to n
+	"""
+	Print a Fibonacci series up to n.
+	"""
+	result = []
+	a, b = 0, 1
+	while b &amp;lt; n:
+		result.append(b)    # add to the list
+		a, b = b, a+b
+	return result]]&gt;&lt;/ExampleText&gt;
+	&lt;/SyntaxLanguage&gt;
+&lt;/SyntaxLanguages&gt;</value>
+  </data>
+</root>
